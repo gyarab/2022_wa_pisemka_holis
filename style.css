@@ -43,8 +43,13 @@ h4, h1 {
     background: green;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 767px) {
     .boxy-row {
         flex-direction: column-reverse;
     }
+}
+
+.video {
+    min-height: 300px;
+    max-height: 800px;
 }
