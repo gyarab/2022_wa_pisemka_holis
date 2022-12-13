@@ -14,7 +14,7 @@ h1 {
     color: white;
 }
 
-h4 {
+h2 {
     margin: 0 0 5px 5px;
 }
 
@@ -31,7 +31,7 @@ h4 {
     color: white;
 }
 
-h2, h1 {
+h4, h1 {
     font-weight: 400;
 }
 
@@ -41,4 +41,10 @@ h2, h1 {
 
 .green {
     background: green;
+}
+
+@media only screen and (max-width: 770px) {
+    .boxy-row {
+        flex-direction: column-reverse;
+    }
 }
