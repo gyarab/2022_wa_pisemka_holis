@@ -50,6 +50,7 @@ h4, h1 {
 }
 
 .video {
+    width: 100%;
     min-height: 300px;
     max-height: 800px;
 }
