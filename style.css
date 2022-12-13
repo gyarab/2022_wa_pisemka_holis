@@ -1,0 +1,44 @@
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: lightskyblue;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+h4 {
+    margin: 0 0 5px 5px;
+}
+
+.card {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.card-body {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+h2, h1 {
+    font-weight: 400;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: green;
+}
